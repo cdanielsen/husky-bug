@@ -16,8 +16,8 @@ Expected Result:
  - index.js should be committed
 
  Actual Result:
-  Husky prevents the commit with the message "npm run prettier -dd found some errors. Please fix them and try committing again"
-  Additional npm error output due to `-dd` logging option that may or may not be relevant
+ - Husky prevents the commit with the message `npm run prettier -dd found some errors. Please fix them and try committing again`
+ - Additional npm error output due to `-dd` logging option that may or may not be relevant
 
  Note:
   Running `npm run precommit` produces the expected result
